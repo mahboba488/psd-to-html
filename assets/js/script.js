@@ -11,6 +11,20 @@ jQuery(document).ready(function($){
 
     });
 
+    $(".iteam-list").owlCarousel({
+        items:3,
+        margin:30,
+        loop:true,
+        nav:false,
+        dots:true,
+       
+        autoplay:false
+    
+
+
+    });
+
+
 
 });
 
