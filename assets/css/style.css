@@ -281,3 +281,12 @@ input:focus,button:focus,textarea:focus{outline: none;}
     content: '';
     transition: .3s;
 }
+
+.section-padding h3{
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 25px;
+   
+
+}
