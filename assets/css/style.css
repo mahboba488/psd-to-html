@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Zilla Slab', serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+   margin: 0 0 15px;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    color: #888888;
+    list-style: none;
+    line-height: 1.8;
+}
+
+a:hover,a:focus{text-decoration: none;}
+input:focus,button:focus,textarea:focus{outline: none;}
+
+.slide-bg-1{
+    background-image: url(../img/slider1.jpg);
+}
+.services-bg::before{
+    background-image: url(../img/service-bg.jpg);
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 13px;
+    
+}
+
+.header-area{
+    font-size: 16px;
+    font-family:'Zilla Slab', serif; 
+    font-weight: 700;
+}
+
+.header-area a .search-icon{
+    color: #333;
+}
+
+.main-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.main-menu li{
+    display: inline-block;
+    position: relative;
+}
+
+.main-menu li a{
+    display: block;
+    
+    padding: 20px;
+}
+
+.single-slide-item {
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+}
+
+.single-slide-item::after{
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #000;
+    z-index: -1;
+    opacity: .66;
+}
+
+.slide-text ,.slide-text a{
+    color: #fff;
+    
+}
+
+.slide-text{
+    font-size: 16px;
+    padding: 160px 0;
+
+}
+
+.slide-text h2{
+    font-size: 60px;
+}
+
+.slide-text h2 span{
+    font-weight: 300;
+    font-style: italic;
+}
+
+.video-btn{
+    display: block;
+    position: relative;
+   margin: 30px 0;
+}
+.play-icon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.box-btn{
+    background-color: #22bbc0;
+    font-family: 'Zilla Slab',serif ;
+    font-weight: 700;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.header-area ,.header-absolute{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    z-index: 9;
+}
+
+.header-area ,.header-absolute  a ,.search-icona{
+    color: #fff;
+}
+
+.search-icon{
+    margin-top: 15px;
+    display: inline-block;
+
+}
+
+.owl-carousel .owl-item  .slide-text img{
+    width:auto;
+    display: inline-block;
+
+}
+
+.Homepage-slides .owl-nav {
+    position: absolute;
+    left: 8%;
+    color: #fff;
+    top:50%;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: -20px;
+
+}
+
+.Homepage-slides .owl-nav .owl-next{
+    left: -100px;
+    right: 8%;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+
+.section-padding h2,h4{
+    color: #000;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.single-promo-box{
+    margin-top:  30px;
+    text-align: center;
+
+}
+.promo-icon{
+    font-size: 20px;
+    color:#22bbc0 ;
+    margin-bottom: 15px;
+}
+
+.single-promo-box h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.space-90{
+    height: 90px;
+}
+
+.tile-gallery{
+    position: relative;
+    height: 675px;
+ margin-left: 30px;
+}
+
+.tile-gallery img{
+    border-radius: 5px;
+    box-shadow: 3px 3px 9px #d4d4d4;
+    position: relative;
+    z-index: 1;
+}
+
+.tile-gallery img:nth-child(2){
+    position: absolute;
+    right: 0;
+    top:50px;
+    z-index: 2;
+}
+.tile-gallery img:nth-child(3){
+    position: absolute;
+    bottom: 0;
+    left: 22px;
+    z-index: 3;
+    
+    
+}
+
+.single-service-item{
+    position: relative;
+    padding-left: 100px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.single-service-item:hover::after{
+    position: absolute;
+    left: 100%;
+    top:0;
+    width: 5000%;
+    height: 100%;
+    content: "";
+    background-color: #22bbc0;
+
+}
+
+.single-service-item:hover{
+    background-color: #22bbc0;
+    color: #fff;
+ 
+}
+
+.single-service-item:hover h3{
+    color: #fff;
+}
+
+ .service-icon:hover{
+    color: #fff;
+}
+
+.service-icon{
+    width: 85px;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    
+    color: #22bbc0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.services-bg h3{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.services-bg{
+    overflow: hidden;
+    position: relative;
+}
+
+.services-bg::before{
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 50.89%;
+    content: '';
+    transition: .3s;
+}
