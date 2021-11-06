@@ -12,13 +12,75 @@ jQuery(document).ready(function($){
     });
 
     $(".iteam-list").owlCarousel({
-        items:3,
-        margin:30,
-        loop:true,
-        nav:false,
-        dots:true,
-       
-        autoplay:false
+        margin: 20,
+           loop: true,
+           autoplay: true,
+           autoplayTimeout: 3000,
+           autoplayHoverPause: true,
+           responsive: {
+             0:{
+               items:1,
+               nav: false
+             },
+             600:{
+               items:2,
+               nav: false
+             },
+             1000:{
+               items:3,
+               nav: false
+             }
+           }
+    
+
+
+    });
+
+    $(".testimonial-list").owlCarousel({
+        margin: 20,
+           loop: true,
+           autoplay: true,
+           autoplayTimeout: 3000,
+           autoplayHoverPause: true,
+           responsive: {
+             0:{
+               items:1,
+               nav: false
+             },
+             600:{
+               items:2,
+               nav: false
+             },
+             1000:{
+               items:3,
+               nav: false
+             }
+           }
+    
+
+
+    });
+
+    $(".logo-carousel").owlCarousel({
+        margin: 20,
+           loop: true,
+           autoplay: true,
+           autoplayTimeout: 3000,
+           autoplayHoverPause: true,
+           responsive: {
+             0:{
+               items:1,
+               nav: false
+             },
+             600:{
+               items:2,
+               nav: false
+             },
+             1000:{
+               items:4,
+               nav: false
+             }
+           }
     
 
 
