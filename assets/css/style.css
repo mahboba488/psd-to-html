@@ -768,3 +768,40 @@ input:focus,button:focus,textarea:focus{outline: none;}
   .dark-bg .social-links a{
       border-color: #fff;
   }
+
+ .breadcromd-bg-1{
+     background-image: url(../img/about-bg.jpg);
+ }
+
+ .section-bg-3{
+     background-image: url(../img/about-pic-2.jpg);
+ }
+
+ .breadcromd-area{
+     font-size: 16px;
+     padding-top: 180px;
+     padding-bottom: 130px;
+ }
+
+ .breadcromd-area,
+ .breadcromd-area a{
+     color: #fff;
+ }
+
+ 
+ .breadcromd-area h2{
+     font-size: 36px;
+     font-weight: 700;
+ }
+
+ .breadcromd-area i.fa{
+     padding: 0 7px;
+ }
+ .black-overly h4{
+     color: #fff;
+ }
+
+ .service-icon-2{
+     font-size: 30px;
+     margin-bottom: 15px;
+ }
