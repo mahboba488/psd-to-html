@@ -805,3 +805,7 @@ input:focus,button:focus,textarea:focus{outline: none;}
      font-size: 30px;
      margin-bottom: 15px;
  }
+
+ .margin-50{
+     margin-top: 60px;
+ }
