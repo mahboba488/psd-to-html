@@ -14,8 +14,10 @@ body{
     line-height: 1.8;
 }
 
-a:hover,a:focus{text-decoration: none;}
-input:focus,button:focus,textarea:focus{outline: none;}
+a:hover,a:focus{text-decoration:none;}
+input:focus,button:focus,textarea:focus{outline:none;}
+
+img{max-width: 100%;height: auto;}
 
 .slide-bg-1{
     background-image: url(../img/slider1.jpg);
@@ -195,6 +197,9 @@ input:focus,button:focus,textarea:focus{outline: none;}
 
 .space-70{
     height: 70px;
+}
+.space-45{
+    height: 45px;
 }
 
 .tile-gallery{
@@ -809,3 +814,91 @@ input:focus,button:focus,textarea:focus{outline: none;}
  .margin-50{
      margin-top: 60px;
  }
+
+ .widget{
+     background-color: #fafafa;
+     padding: 30px;
+     margin-bottom: 30px;
+ }
+
+ .widget .box-btn{
+     border-radius: 0;
+     width: 100%;
+     text-align: center;
+     padding: 12px;
+     margin-top: 20px;
+
+ }
+ .widget .nav_menu{
+     padding: 0;
+     background-color: transparent;
+ }
+
+ .nav_menu ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+
+
+ }
+
+ .nav_menu li a{
+    background-color: #fafafa;
+    display: block;
+    margin-bottom: 10px;
+    padding: 14px 37px; 
+    color: #333;
+    font-family: 'zilla Slab',serif;
+    font-size: 17px;
+    font-weight: 700;
+ }
+ .nav_menu li a:hover{
+     background-color: #22bbc0;
+     color: #fff;
+ }
+
+ .service-description h3{
+     margin-top: 42px;
+ }
+
+ .grid-item {
+    width: 25%;
+    padding: 10px;
+    margin: 10px 20px;
+    color: white;
+  }
+
+  
+ 
+
+  .container{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.filter{
+
+    text-align: center;
+
+}
+.filter{
+  margin: 0 0 50px;
+  font-size: 16px;
+  font-family: 'zilla Slab',serif;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+}
+.filter button{
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.filter button.active{
+  color:#22babf;
+  border-bottom: #fff;
+}
