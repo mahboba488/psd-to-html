@@ -902,3 +902,39 @@ img{max-width: 100%;height: auto;}
   color:#22babf;
   border-bottom: #fff;
 }
+
+.shadow{
+    box-shadow: 0 0  4px #ddd;
+}
+
+.twist-faqs .accordion-item{
+    background: none;
+}
+
+.accordion-item{
+    margin: 10px;
+}
+
+ .twist-faqs .accordion-body{
+    border-top: 1px solid #ddd;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'zilla Slab',serif;
+    border: #fff;
+
+}
+
+.accordion-header{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'zilla Slab',serif;
+    color: #000;
+}
+
+.twist-faqs{
+    background: #fbfbfb;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 0 0 5px #ddd;
+}
+
