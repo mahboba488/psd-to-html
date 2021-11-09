@@ -15,6 +15,7 @@
 .circle-chart {
   width: 200px;
   height: 200px;
+  
 }
 
 .circle-chart__circle {
@@ -25,6 +26,8 @@
   animation: circle-chart-fill 2s reverse; /* 1 */ 
   transform: rotate(-90deg); /* 2, 3 */
   transform-origin: center; /* 4 */
+
+  
 }
 
 /**
