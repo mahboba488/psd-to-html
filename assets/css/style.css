@@ -1242,4 +1242,83 @@ blockquote{
     padding-left: 20px;
 }
 
+.twist-faqs.panel-default.panel-heading{
+
+    background: none;
+    border: none;
+
+
+}
+
+
+.twist-faqs.panel-group.panel-defaul.panel-collapse.panel-body{ 
+    border:none;
+}
+
+.twist-faqs.panel.panel-default {
+    background: #fbfbfb;
+    margin-bottom: 13px;
+   border: none;
+   box-shadow: 0 0 5px #ebe7f0;
+
+}
+
+.twist-faqs.panel-heading{
+
+    padding: 0;
+
+}
+
+.twist-faqs .panel-title a{
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+
+.twist-faqs .panel-title a::after{
+
+    content: "+";
+    position: absolute;
+    right: 0;
+    background: #0bbbc1;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    line-height: 26px;
+    right: 16px;
+    top:50%;
+    margin-top: -15px;
+
+
+}
+
+
+
+.twist-faqs .panel-title a[aria-expanded="true"]::after{
+    content: "-";
+}
+
+.portfolio-filter{
+    margin: 0 o 50px;
+    font-size: 16px;
+    font-family: 'zilla Slab',serif;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    list-style: none;
+
+
+}
+
+.portfolio-filter li{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.portfolio-filter li.active{
+    color: #22babf;
+}
 

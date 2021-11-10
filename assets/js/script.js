@@ -85,7 +85,30 @@ jQuery(document).ready(function($){
 
 
     });
+
+    $(".portfolio-filter li ").on('click',function(){
+      $(".portfolio-filter li").removeClass("active");
+      $(this).addClass("active");
+
+      var filterValue= $(this).attr("data-filter");
+      $(".portfolio-list").isotope({
+        filter : filterValue
+      })
+
+    });
     
+
+    $(".portfolio-list").isotope({
+      layoutMode:"masonry",
+      masonry:{
+        columnWidth:".col-md-6",
+        horizontalOrder: false
+        
+
+      }
+
+
+    })
 
 
 
